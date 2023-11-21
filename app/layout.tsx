@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import { fontDisplay, fontBody } from "@/lib/fonts";
 import "@/styles/globals.css";
+import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "@/providers/theme-provider";
+import { ToastProvider } from "@/providers/toaster-provider";
 
 export const metadata: Metadata = {
-  title: 'tawk.to - "100% FREE live chat software for your website!"',
-  description:
-    "tawk.to is 100% free live chat software to monitor and chat with visitors on your website or from a free customizable page.",
+  title: {
+    default: 'tawk.to - "100% FREE live chat software for your website!"',
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
 };
 
 export default function RootLayout({
@@ -23,7 +28,15 @@ export default function RootLayout({
           fontBody.variable,
         )}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <ToastProvider />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

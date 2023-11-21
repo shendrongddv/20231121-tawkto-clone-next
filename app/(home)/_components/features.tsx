@@ -5,7 +5,7 @@ import { LucideIcon } from "lucide-react";
 const Features = () => {
   return (
     <section className="px-4 pt-24">
-      <div className="container flex flex-col items-center gap-12">
+      <div className="container flex flex-col items-center gap-8">
         {/* Row */}
         <div className="flex flex-col items-center gap-3 text-center md:w-2/3">
           <h2 className="h2">All the Features, without the price tag</h2>

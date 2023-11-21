@@ -14,7 +14,7 @@ const Awward = () => {
           {/* # */}
           <figure aria-hidden className="h-6 w-auto md:h-10">
             <Image
-              src="/forbes-white.png"
+              src="/forbes-white.webp"
               alt="Forbes"
               width={220}
               height={66}

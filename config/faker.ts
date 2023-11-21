@@ -110,6 +110,42 @@ export const fakerHowItWork = [
   },
 ];
 
+// LogoClouds
+export const fakerLogoClouds = [
+  { id: 1, image: 22 },
+  { id: 2, image: 27 },
+  { id: 3, image: 35 },
+  { id: 4, image: 36 },
+  { id: 5, image: 37 },
+  { id: 6, image: 38 },
+  { id: 7, image: 39 },
+  { id: 8, image: 40 },
+  { id: 9, image: 51 },
+  { id: 10, image: 54 },
+  { id: 11, image: 58 },
+  { id: 12, image: 60 },
+  { id: 13, image: 61 },
+  { id: 14, image: 62 },
+  { id: 15, image: 64 },
+  { id: 16, image: 65 },
+  { id: 21, image: 22 },
+  { id: 22, image: 27 },
+  { id: 23, image: 35 },
+  { id: 24, image: 36 },
+  { id: 25, image: 37 },
+  { id: 26, image: 38 },
+  { id: 27, image: 39 },
+  { id: 28, image: 40 },
+  { id: 29, image: 51 },
+  { id: 30, image: 54 },
+  { id: 31, image: 58 },
+  { id: 32, image: 60 },
+  { id: 33, image: 61 },
+  { id: 34, image: 62 },
+  { id: 35, image: 64 },
+  { id: 36, image: 65 },
+];
+
 // Features
 export const fakerFeatures = [
   {
@@ -303,5 +339,81 @@ export const fakerFeatures = [
     title: "Automated Translation",
     isStable: false,
     icon: Cast,
+  },
+];
+
+// FAQ
+export const fakerFAQ = [
+  {
+    id: 1,
+    question: "How many agents can we add?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 2,
+    question: "How can you offer this for free?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 3,
+    question: "Do you limit the number of concurrent chats?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 4,
+    question: "Is our data safe?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 5,
+    question: "Will I ever be charged to use the software?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 6,
+    question: "Are there any Ads?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 7,
+    question: "How do I get support?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 8,
+    question: "Where can I find documentation?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 9,
+    question: "Do you offer a self-hosted solution?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 10,
+    question: "How many businesses use tawk.to?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 11,
+    question: "When is your next Meetup?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
+  },
+  {
+    id: 12,
+    question: "Where are you based?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque commodi distinctio esse provident placeat maxime.",
   },
 ];

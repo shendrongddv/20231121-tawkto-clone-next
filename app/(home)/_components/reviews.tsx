@@ -3,7 +3,7 @@ import { Videotape } from "lucide-react";
 
 const Reviews = () => {
   return (
-    <section className="bg-slate-100 px-4 py-24">
+    <section className="bg-slate-100 px-4 pt-24">
       <div className="container flex flex-col items-center gap-12">
         {/* Row */}
         <div className="flex flex-col items-center gap-3 text-center md:w-2/3">

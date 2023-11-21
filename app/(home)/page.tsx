@@ -1,4 +1,5 @@
 import Awward from "./_components/awward";
+import ClientClouds from "./_components/client-clouds";
 import FAQ from "./_components/faq";
 import Features from "./_components/features";
 import FounderWork from "./_components/founder-work";
@@ -24,6 +25,7 @@ const HomePage = () => {
       <Reviews />
 
       {/* ClientClouds */}
+      <ClientClouds />
 
       {/* Awward */}
       <Awward />

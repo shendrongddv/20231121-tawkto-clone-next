@@ -1,3 +1,5 @@
+import { FAQ_Accordion } from "./faq-accordion";
+
 const FAQ = () => {
   return (
     <section className="px-4 py-24">
@@ -12,6 +14,7 @@ const FAQ = () => {
         </div>
 
         {/* Row */}
+        <FAQ_Accordion />
       </div>
     </section>
   );

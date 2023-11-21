@@ -26,7 +26,7 @@ const Hero = () => {
           {/* # */}
           <Button
             size="lg"
-            className="my-4 font-semibold uppercase transition duration-300 hover:scale-105 hover:shadow-lg"
+            className="my-4 uppercase transition duration-300 hover:scale-105 hover:shadow-lg"
           >
             <ThumbsUp className="mr-2 h-4 w-4" />
             Sign Up Free

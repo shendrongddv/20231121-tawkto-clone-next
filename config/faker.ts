@@ -1,4 +1,3 @@
-import Awward from "@/app/(home)/_components/awward";
 import {
   Accessibility,
   Activity,
@@ -41,19 +40,19 @@ export const fakerWhyUs = [
     id: 1,
     title: "Get Close",
     desc: "Your customers have questions before they buy. Be where they are, when they need you, so they have the confidence they need to choose you over the competition. Every time.",
-    image: "why-us-1.png",
+    image: "why-us-1.webp",
   },
   {
     id: 2,
     title: "Get Organized",
     desc: "With customer data siloed across so many tools, it’s hard to get a top-down view of the customer journey. Not anymore. You now have one place for all your customer interactions.",
-    image: "why-us-2.png",
+    image: "why-us-2.webp",
   },
   {
     id: 3,
     title: "Get in Front",
     desc: "Easily identify FAQs and capture help center searches to create articles and shortcuts, so agents can respond faster, and customers can get help without having to make contact.",
-    image: "why-us-3.png",
+    image: "why-us-3.webp",
   },
 ];
 
@@ -67,7 +66,7 @@ export const fakerHowItWork = [
       end: "",
     },
     desc: "See which pages your visitors are on in real time, what they are searching for within your Knowledge Base and how often they visit your website. View activity across their entire journey. See clearly which team member responded to a customer last and maintain a complete conversation history.",
-    image: "how-it-work-1.png",
+    image: "how-it-work-1.webp",
   },
   {
     id: 2,
@@ -77,7 +76,7 @@ export const fakerHowItWork = [
       end: " they are",
     },
     desc: "Access is the currency of the web. You need to be where your customers are, and if you’re not, your competitors will be. With tools like Live Chat, Ticketing, a Knowledge Base and video and voice add-ons, you have what you need to be there for customers when and where they need you most.",
-    image: "how-it-work-2.png",
+    image: "how-it-work-2.webp",
   },
   {
     id: 3,
@@ -87,7 +86,7 @@ export const fakerHowItWork = [
       end: " and assign conversations",
     },
     desc: "Tag and assign conversations to members of your team and ensure the right person is responding at the right time. Seeing the entire journey alongside customer data gives you the power to respond with context and ultimately create memorable and positive customer experiences.",
-    image: "how-it-work-3.png",
+    image: "how-it-work-3.webp",
   },
   {
     id: 4,
@@ -97,7 +96,7 @@ export const fakerHowItWork = [
       end: "",
     },
     desc: "Streamline support with a free customizable Knowledge Base that both your team and your customers are going to love. Easily share your team’s know-how internally alongside chats, then select what to publish publicly.",
-    image: "how-it-work-4.svg",
+    image: "how-it-work-4.webp",
   },
   {
     id: 5,
